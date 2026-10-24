@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "funtimevisual",
+  "version": "${version}",
+  "name": "FunTime Visual",
+  "description": "A customizable dark client-side menu prototype with server profiles.",
+  "authors": ["Selteck1"],
+  "environment": "client",
+  "entrypoints": { "client": ["ru.funtime.client.FunTimeVisualClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
